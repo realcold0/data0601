@@ -80,6 +80,7 @@ ListNode* delete_last(ListNode* head)
 	}
 
 	ListNode* cur = head;
+	ListNode* prev = NULL;
 
 	// 노드가 한 개인 경우
 	if (cur->link == head)
